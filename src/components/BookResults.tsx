@@ -39,7 +39,7 @@ const BookResults = () => {
           <h1>No Books Found</h1>
         ) : (
           [...temp, ...books].map((book : Book ) => {
-
+            
             return (
               <BookCard
                 book={book}
